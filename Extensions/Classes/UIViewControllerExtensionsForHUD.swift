@@ -17,12 +17,12 @@ public extension UIViewController {
         container.backgroundColor = UIColor.white
         self.view.addSubview(container)
         
-        let indicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+        let indicator = UIActivityIndicatorView(style: .gray)
         indicator.center = CGPoint(x: container.width/2, y: container.height/2)
         indicator.startAnimating()
         container.addSubview(indicator)
         
-        self.view.bringSubview(toFront: container)
+        self.view.bringSubviewToFront(container)
     }
     
     func hiddenHUDProcess(){
@@ -44,12 +44,12 @@ public extension UIViewController {
         container.backgroundColor = UIColor.white
          self.view.addSubview(container)
         
-        let indicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+        let indicator = UIActivityIndicatorView(style: .gray)
         indicator.center = CGPoint(x: container.width/2, y: container.height/2)
         indicator.startAnimating()
         container.addSubview(indicator)
         
-        self.view.bringSubview(toFront: container)
+        self.view.bringSubviewToFront(container)
     }
     
     func hiddeHUD(){
@@ -88,7 +88,7 @@ public extension UIViewController {
         tipLabel.text = content
         container.addSubview(tipLabel)
         
-        self.view.bringSubview(toFront: container)
+        self.view.bringSubviewToFront(container)
     }
     
     @objc func tipContainerClicked(){

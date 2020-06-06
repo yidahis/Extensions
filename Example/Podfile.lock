@@ -1,5 +1,5 @@
 PODS:
-  - Extensions (0.1.0)
+  - Extensions (0.1.1)
 
 DEPENDENCIES:
   - Extensions (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Extensions: 66d111d9b9b34c25a8e153f5f724c8b61c0bea30
+  Extensions: 35dd00649ae73eec10b2e35a9eaae4af62174a8e
 
 PODFILE CHECKSUM: 7cbe5f51ec149521c89f9d7c626dee3f1aa51ef0
 
