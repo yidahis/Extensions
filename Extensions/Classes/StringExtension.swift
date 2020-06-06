@@ -54,7 +54,7 @@ extension String {
         var subAttributes: [NSAttributedString.Key: Any] = [NSAttributedString.Key: Any]()
         subAttributes[NSAttributedString.Key.font] = font
         subAttributes[NSAttributedString.Key.foregroundColor] = color
-        subAttributes[NSAttributedString.Key.underlineStyle] = NSUnderlineStyle.single.rawValue
+        subAttributes[NSAttributedString.Key.underlineStyle] = NSUnderlineStyle.styleSingle.rawValue
         
         return fontSizeAndColorSubString(self, attributes: subAttributes)
     }
@@ -63,7 +63,7 @@ extension String {
         var subAttributes: [NSAttributedString.Key: Any] = [NSAttributedString.Key: Any]()
         subAttributes[NSAttributedString.Key.font] = font
         subAttributes[NSAttributedString.Key.foregroundColor] = color
-        subAttributes[NSAttributedString.Key.strikethroughStyle] = NSUnderlineStyle.single.rawValue
+        subAttributes[NSAttributedString.Key.strikethroughStyle] = NSUnderlineStyle.styleSingle.rawValue
         
         var firstAttributes: [NSAttributedString.Key: Any] = [NSAttributedString.Key: Any]()
 //        firstAttributes[NSAttributedString.Key.strikethroughStyle] = NSUnderlineStyle.none.rawValue
